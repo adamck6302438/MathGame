@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0DD1A06D2278AA8F00D4C336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A06C2278AA8F00D4C336 /* main.m */; };
+		0DD1A0752278AB9C00D4C336 /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A0742278AB9C00D4C336 /* AdditionQuestion.m */; };
+		0DD1A0782278B69900D4C336 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A0772278B69900D4C336 /* InputHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0DD1A0692278AA8F00D4C336 /* MathGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MathGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD1A06C2278AA8F00D4C336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DD1A0732278AB9C00D4C336 /* AdditionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
+		0DD1A0742278AB9C00D4C336 /* AdditionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
+		0DD1A0762278B69900D4C336 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		0DD1A0772278B69900D4C336 /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				0DD1A06C2278AA8F00D4C336 /* main.m */,
+				0DD1A0762278B69900D4C336 /* InputHandler.h */,
+				0DD1A0772278B69900D4C336 /* InputHandler.m */,
+				0DD1A0732278AB9C00D4C336 /* AdditionQuestion.h */,
+				0DD1A0742278AB9C00D4C336 /* AdditionQuestion.m */,
 			);
 			path = MathGame;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DD1A06D2278AA8F00D4C336 /* main.m in Sources */,
+				0DD1A0782278B69900D4C336 /* InputHandler.m in Sources */,
+				0DD1A0752278AB9C00D4C336 /* AdditionQuestion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
