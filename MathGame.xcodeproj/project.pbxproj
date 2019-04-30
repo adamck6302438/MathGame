@@ -10,6 +10,7 @@
 		0DD1A06D2278AA8F00D4C336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A06C2278AA8F00D4C336 /* main.m */; };
 		0DD1A0752278AB9C00D4C336 /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A0742278AB9C00D4C336 /* AdditionQuestion.m */; };
 		0DD1A0782278B69900D4C336 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A0772278B69900D4C336 /* InputHandler.m */; };
+		0DD1A07B2278B89900D4C336 /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A07A2278B89900D4C336 /* ScoreKeeper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		0DD1A0742278AB9C00D4C336 /* AdditionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
 		0DD1A0762278B69900D4C336 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
 		0DD1A0772278B69900D4C336 /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		0DD1A0792278B89900D4C336 /* ScoreKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
+		0DD1A07A2278B89900D4C336 /* ScoreKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				0DD1A06C2278AA8F00D4C336 /* main.m */,
+				0DD1A0792278B89900D4C336 /* ScoreKeeper.h */,
+				0DD1A07A2278B89900D4C336 /* ScoreKeeper.m */,
 				0DD1A0762278B69900D4C336 /* InputHandler.h */,
 				0DD1A0772278B69900D4C336 /* InputHandler.m */,
 				0DD1A0732278AB9C00D4C336 /* AdditionQuestion.h */,
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD1A07B2278B89900D4C336 /* ScoreKeeper.m in Sources */,
 				0DD1A06D2278AA8F00D4C336 /* main.m in Sources */,
 				0DD1A0782278B69900D4C336 /* InputHandler.m in Sources */,
 				0DD1A0752278AB9C00D4C336 /* AdditionQuestion.m in Sources */,

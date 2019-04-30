@@ -1,5 +1,5 @@
 //
-//  InputHandler.h
+//  ScoreKeeper.h
 //  MathGame
 //
 //  Created by Frances ZiyiFan on 4/30/19.
@@ -10,9 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface InputHandler : NSObject
-
-+ (NSString *) parse;
+@interface ScoreKeeper : NSObject
 
 @end
 
