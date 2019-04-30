@@ -25,11 +25,13 @@
     NSLog(@"%@", self.question);
 }
 
-- (void) checkAnswer: (NSInteger) userAnswer{
+- (BOOL) checkAnswer: (NSInteger) userAnswer{
     if(userAnswer == self.answer){
         NSLog(@"Correct!");
+        return true;
     }else{
         NSLog(@"Wrong!");
+        return false;
     }
 }
 

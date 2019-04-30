@@ -9,12 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "AdditionQuestion.h"
 #import "InputHandler.h"
+#import "ScoreKeeper.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"MATHS GAME!");
         BOOL gameOn = YES;
-        
+        ScoreKeeper* scoreKeeper = [[ScoreKeeper alloc] init];
         while(gameOn){
             AdditionQuestion* question = [[AdditionQuestion alloc] init];
             [question generateQuestion];
@@ -25,10 +26,14 @@ int main(int argc, const char * argv[]) {
             if([userInput isEqualToString:@"quit"]){
                 gameOn = NO;
             }else{
+                [scoreKeeper addQuestion];
                 NSInteger answer = [userInput integerValue];
-                [question checkAnswer: answer];
+                if([question checkAnswer: answer]){
+                    [scoreKeeper addScore];
+                }
             }
         }
+        [scoreKeeper result];
     }
     return 0;
 }

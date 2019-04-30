@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger answer;
 
 - (void) generateQuestion;
-- (void) checkAnswer: (NSInteger) userAnswer;
+- (BOOL) checkAnswer: (NSInteger) userAnswer;
 
 @end
 

@@ -12,6 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ScoreKeeper : NSObject
 
+@property (nonatomic, assign) NSInteger question;
+@property (nonatomic, assign) NSInteger score;
+
+- (void) addQuestion;
+- (void) addScore;
+- (void) result;
+
 @end
 
 NS_ASSUME_NONNULL_END
