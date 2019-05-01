@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SubtractionQuestion : Question
 
+- (void)generateQuestion;
+
 @end
 
 NS_ASSUME_NONNULL_END

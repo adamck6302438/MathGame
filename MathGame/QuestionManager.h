@@ -7,10 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Question.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface QuestionManager : BaseObject
+@interface QuestionManager : NSObject
+
+@property (nonatomic, strong) NSMutableArray* questions;
+@property (nonatomic, assign) double totalTime;
+
+- (NSString *)timeOutput: (Question*) question;
 
 @end
 

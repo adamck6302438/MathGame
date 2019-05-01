@@ -26,7 +26,7 @@
 }
 - (void) result{
     float percentage = (float)self.score/(float)self.question*100;
-    NSLog(@"score: %d right, %d wrong, ------ %.2f", self.score, (self.question-self.score), percentage);
+    NSLog(@"score: %d right, %d wrong, ------ %.2f%%", self.score, (self.question-self.score), percentage);
 }
 
 @end

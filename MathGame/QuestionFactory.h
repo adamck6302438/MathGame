@@ -7,10 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Question.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QuestionFactory : NSObject
+
+@property (nonatomic, strong) NSArray* questionSubclassNames;
+
+-(Question *) generateRandomQuestion;
 
 @end
 

@@ -13,18 +13,15 @@
 - (instancetype)init {
     if (self = [super init]) {
         // do something here!
-        NSInteger _n1 = arc4random_uniform(90)+10;
-        NSInteger _n2 = arc4random_uniform(90)+10;
-        self.question = [NSString stringWithFormat: @"%d + %d = ?",_n1,_n2];
-        self.answer = _n1+_n2;
+        self.leftValue = arc4random_uniform(90)+10;
+        self.rightValue = arc4random_uniform(90)+10;
         _startTime = [NSDate date];
-        
     }
     return self;
 }
 
 - (void) generateQuestion{
-    NSLog(@"%@", self.question);
+    
 }
 
 - (BOOL) checkAnswer: (NSInteger) userAnswer{

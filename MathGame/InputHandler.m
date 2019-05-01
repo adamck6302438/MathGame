@@ -10,7 +10,7 @@
 
 @implementation InputHandler
 
-+ (NSString *) parse{
+- (NSString *) parse{
     char inputChar[255];
     fgets(inputChar, 255, stdin);
     NSString *userInput = [NSString stringWithUTF8String:inputChar];
